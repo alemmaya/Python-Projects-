@@ -19,13 +19,20 @@ print(a)  # Output: banana smoothie
 # ---- Your Turn -----
 
 # create variable b, with string value 'avocado toast'
-
+b= fruits[13:20] + bakery[11:17]
+print(b)
 # create variable c, with string value 'lemon juice'
-
+c= veggies[15:20] + fridge[0:5]
+print(c)
 # create variable d, with string value 'potato ice cream'
-
+d= veggies[0:7] + fridge[14:24]
+print(d)
 # create variable e, with string value 'bagel with eggs'. Use the variable 'extra' below
 extra = 'with'
-
+e= bakery[6:12]+extra[0:4] +protein[7:13]
+print(e)
 # create variable f, with string value 'chicken and cheese burrito'. Use the variable 'more' below
 more = 'cheese and burrito'
+# comment on cheese with burrito 
+f= protein[0:8] + more[0:18]
+print(f)

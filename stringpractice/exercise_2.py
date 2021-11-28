@@ -26,9 +26,13 @@ print(b)  # Output: gold
 
 # ---- Your Turn ----- 
 # create varaible c, with string value 'cold'
-
+c= letters[2] + letters[14] + letters[11] +letters[3]
+print(c)
 # create variable d, with string value 'dog'
-
+d= letters[3] + letters[14] + letters[6]
+print(d)
 # create variable e, with string value 'back'
-
+e= letters[2] + letters[14] + letters[11] +letters[3]
 # create variable f, with string value 'aught'
+f= letters[0] + letters[20] + letters[6] +letters[7] + letters[19]
+print(f)
