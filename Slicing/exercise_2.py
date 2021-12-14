@@ -17,7 +17,9 @@ print(city[5])#<--OUTPUT: i
 
 # (2) Using the game variable below, print index positions 0, 3, and the last index position
 game = 'Grape Seeds'
-
+print(game[0])
+print(game[3])
+print(game[10])
 
 
 
