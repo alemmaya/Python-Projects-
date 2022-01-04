@@ -6,5 +6,7 @@ Output the numbers 1 to 10 backwards using a loop
 Create a loop that counts all even numbers to 10
 Create a loop that sums the numbers from 100 to 200
 """
-for country in clist:
-    print(country)
+
+for number in range(100,200):
+        print(number)
+        print()
