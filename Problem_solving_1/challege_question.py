@@ -9,7 +9,7 @@
 '''
 
 my_var = "hello there"
-Print(my_var)
+print(my_var)
 
 '''
 line #: 

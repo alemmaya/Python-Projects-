@@ -13,3 +13,4 @@ coffee = 2
 
 breakfast = avocado + coffee
 print(breakfast)
+print(avocado)
