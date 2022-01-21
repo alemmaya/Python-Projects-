@@ -1,1 +1,1 @@
-# Python-Projects-
+# These exercises were adopted and used for study purposes 
