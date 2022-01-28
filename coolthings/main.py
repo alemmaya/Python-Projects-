@@ -1,2 +1,2 @@
 import pywhatkit
-pywhatkit.sendwhatmsg("+5714892672","you are brave, keep on!",9,44)
+pywhatkit.sendwhatmsg("+251911718932","Love you, you know you are brave, keep on!",10,30)
