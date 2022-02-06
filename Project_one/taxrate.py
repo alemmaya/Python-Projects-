@@ -1,14 +1,14 @@
 prompt = """
 1. Single
-2. Married filed seprately
-3. Married filed jointly 
+2. Married filed jointly
+3. Married filed  separately 
 4. Heads of the household 
 """
 print(prompt)
 
-income = int(input("Enter the number for your marital status:   "))
+income = int(input("Enter your income:   "))
 status = int(input("Enter the number for your respective marital  status: "))
-if status =="Single":
+if status ==1:
         if 0 <= income <= 9875:
             print(income*0.1)
         elif 9876 <= income <= 40125:
@@ -23,7 +23,7 @@ if status =="Single":
             print(47367.50 + (0.35 * (income - 207350)))
         elif income >= 518401:
             print(156235 + (0.37 * (income - 518400))) 
-if status == "Married filed jointly ":
+if status == 2:
     if 0 <= income <= 19750:
         print(income*0.1)
     elif  19751 <= income <= 80250:
@@ -38,7 +38,7 @@ if status == "Married filed jointly ":
         print(94735 + (0.35 * (income - 414700)))
     elif income >= 622051:
         print(167307.50 + (0.37 * (income - 622050))) 
-if status == "Married filed Separately":
+if status == 3:
     if 0 <= income <= 9875:
         print(income*0.1)
     elif 9876 <= income <= 40125:
