@@ -10,7 +10,12 @@ income = int(input("Enter Taxable Income:   "))
 status = int(input("Enter Filing Status: "))
 if status ==1:
         if 0 <= income <= 9875:
-            print(income*0.1)
+             tax= income*0.1
+             income_after_tax = income-tax
+             print(f"Your Taxable Income is {income}")
+             print(f"Your Tax Bill is {tax}")
+             print(f"Your Income after Tax is {income_after_tax}")
+
         elif 9876 <= income <= 40125:
             print(987.50 + (0.12 * (income - 9875)))
         elif  40126 <= income <= 85525:
